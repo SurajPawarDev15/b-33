@@ -25,13 +25,16 @@ export class DataTypes {
   product = undefined;
   isnum = NaN;
 
+  //Object
   studentDetail: any = {
     name: 'Suraj',
     city: 'Pune',
     state: 'MHA',
   };
 
+  //Array String
   cityList: string[] = ['Pune', 'Nagpur', 'Jaipur', 'Delhi'];
+  //Array Number
   rollNoArray: number[] = [10, 20, 30, 40, 50];
 
   constructor() {
@@ -41,13 +44,12 @@ export class DataTypes {
     this.student = [];
     this.productPrice = 222;
     this.courseName = 'ReactJS';
-
     let rollArray = ['', ''];
     const studName = 'Some';
     //console.log(rollNoArray);
     console.log(studName);
-
     console.log(this.courseName);
+
     this.printCourseName();
     // this.printName('123');
     this.printText('this is sample text');
